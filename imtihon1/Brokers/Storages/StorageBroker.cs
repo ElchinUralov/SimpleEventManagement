@@ -7,7 +7,7 @@ namespace imtihon1.Brokers.Storages
     {
         public SqlConnection GetConnection()
         {
-            string connectionString = @"Server=localhost; user id=sa; password=12345; Database=Event_Management";
+            string connectionString = @"Server=localhost; user id=sa; password=12345; Database=Event_Management3";
 
             return new SqlConnection(connectionString);
         }
